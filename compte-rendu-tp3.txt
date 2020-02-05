@@ -1,0 +1,25 @@
+Serveur TCP echo en Java
+=======================
+
+Question 1
+----------
+
+Si deux clients se connecte en même temps, il faut que le premier
+client ferme la connexion pour que le deuxième puisse être traité par
+le serveur. Il faudrait utiliser des threads pour gérer plusieurs
+clients à la fois car le serveur utilise des fonctions bloquantes.
+
+Question 2
+----------
+
+Le test du serveur Java avec un client dans un autre langage illustre
+bien le modèle client-serveur car on voit bien que peu importe le
+langage dans lesquels le serveur et le client sont écrits, ils
+arrivent à communiquer grâce à un standard.
+
+Question 3
+----------
+
+Il n’est pas possible de se connecter au serveur avec le mauvais
+client car il n’y a aucun serveur qui écoute avec le bon protocole sur
+le bon port.
